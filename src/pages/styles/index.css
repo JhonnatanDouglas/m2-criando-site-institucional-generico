@@ -1,0 +1,243 @@
+/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+
+.header__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 40px;
+    background-color: var(--color-grey-6);
+    color: var(--color-grey-1);
+    border-bottom: 2px solid var(--color-primary);
+    z-index: 1;
+}
+
+.header__container > div {
+    width: 1024px;
+}
+
+.header__container > div > p {
+    font-size: var(--text-large);
+    font-weight: var(--font-weight-3);
+}
+
+.aboutUs__first{
+    height: 781px;
+    gap: var(--gap-2);
+}
+
+.aboutUs__first > h1 {
+    font-size: var(--tittle-large);
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-1);
+    gap: var(--gap-2);
+}
+
+.aboutUs__first > h1 > span {
+    color: var(--color-primary);
+}
+
+.aboutUs__first > p {
+    width: 770px;
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-3);
+}
+
+.aboutUs__second {
+    height: 284px;
+    background-color: var(--color-grey-6);
+    color: var(--color-grey-1);
+}
+
+.aboutUs__second > h2 {
+    padding: 0px 24px 0px 0px;
+    font-size: var(--tittle-small);
+    font-weight: var(--font-weight-3);
+}
+
+.aboutUs__second > span {
+    width: 576px;
+    color: var(--color-grey-2);
+}
+
+.aboutUs__second > span > p {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-2);
+    line-height: var(--line-height-2);
+}
+
+.section__faq { 
+    height: 1151px;
+}
+
+.faq__first {
+    margin-top: 100px;
+    width: 380px;
+    height: 230px;
+    gap: var(--gap-1);
+}
+
+.faq__first > h2 {
+    color: var(--color-grey-1);
+    font-size: var(--tittle-medium);
+    font-weight: var(--font-weight-3);
+}
+
+.faq__first > p {
+    padding: 10px 0px;
+    color: var(--color-grey-3);
+}
+
+.faq__first > button {
+    width: 241px;
+}
+
+.faq__second {
+    margin-top: 100px;
+    margin-bottom: 107px;
+    width: 575px;
+    height: 968px;
+    gap: var(--gap-3);
+}
+
+.faq__second > span {
+    width: 575px;
+    height: 197px;
+}
+
+.faq__second > span > h3 {
+    font-size: var(--tittle-small);
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-1);
+    line-height: 44px;
+}
+
+.faq__second > span > p {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-1);
+    line-height: 30px;
+    color: var(--color-grey-3);
+}
+
+.section__testimony {
+    height: 1140px;
+}
+
+.userslist__container {
+    width: 670px;
+    height: 840px;
+}
+
+.userslist__container > ul {
+    height: 840px;
+}
+
+.attestant__user {
+    height: 135px;
+}
+
+.attestant__user > span {
+    width: 190px;
+    height: 77px;
+}
+
+.attestant__user > span > h3 {
+    font-size: var(--text-large);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-1);
+}
+
+.attestant__user > span > p {
+    font-size: var(--text-small);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-3);
+}
+
+.attestant__user > p {
+    font-size: var(--text-small);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-3);
+    width: 410px;
+    height: 135px;
+}
+
+.users__opinion {
+    padding: 60px 52px;
+    width: 446px;
+    height: 420px;
+    font-size: var(--text-smaller);
+    background-color: var(--color-primary);
+    color: var(--color-grey-1);
+    border: none;
+    border-radius: var(--radius-1);
+}
+
+.users__opinion > h2 {
+    font-size: var(--tittle-small);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-1);
+}
+
+.users__opinion > p {
+    margin: 20px 0px 0px;
+    font-size: var(--text-small);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+}
+
+.modal__controller {
+    padding: 0px;
+    border: none;
+}
+
+dialog::backdrop {
+    background-color: rgba(25, 28, 31, 0.8);
+}
+
+.modal__container {
+    position: relative;
+    padding: 30px;
+    width: 504px;
+    height: 400px;
+    background-color: var(--color-grey-5);
+    border: 2px solid var(--color-primary);
+}
+
+.modal__container > h3 {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-1);
+}
+
+.modal__container > p {
+    font-size: var(--text-small);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-2);
+}
+
+.modal__container > input {
+    height: 50px;
+    background-color: var(--color-grey-6);
+    border: none;
+    border-radius: var(--radius-1);
+
+    padding: 10px;
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-3);
+}
+
+.modal__container > input::placeholder {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-3);
+}

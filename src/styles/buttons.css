@@ -1,0 +1,55 @@
+.btn__primary {
+    height: var(--height-button);
+    padding: var(--padding-button);
+    font-size: var(--text-button);
+    font-weight: var(--font-weight-3);
+    background-color: var(--color-primary);
+    color: var(--color-grey-1);
+    border: none;
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.btn__primary:hover {
+    background-color: var(--color-secondary);
+    transition: var(--transition-button);
+    transition: var(--transition-button);
+}
+
+.btn__secondary {
+    height: var(--height-button);
+    padding: var(--padding-button);
+    font-size: var(--text-button);
+    font-weight: var(--font-weight-3);
+    background-color: var(--color-grey-6);
+    color: var(--color-grey-2);
+    border: 2px solid var(--color-grey-2);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.btn__secondary:hover {
+    background-color: var(--color-grey-5);
+    transition: var(--transition-button);
+}
+
+.btn__modal--close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: var(--text-small);
+    font-weight: var(--font-weight-1);
+    height: 35px;
+    width: 35px;
+    background-color: var(--color-grey-4);
+    border: 2px solid var(--color-grey-4);
+    border-radius: var(--radius-2);
+    color: var(--color-grey-3);
+    cursor: pointer;
+}
+
+.btn__modal--close:hover {
+    background-color: var(--color-grey-5);
+    border: 2px solid var(--color-grey-3);
+    transition: var(--transition-button);
+}
